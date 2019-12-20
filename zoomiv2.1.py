@@ -11,10 +11,8 @@ api_url = 'https://api.zoomeye.org/user/login'
 def login():
     #user = input('input username:')
     #passwd = input('input password:')
-    user = 'suanwell@hotmail.com' 
-    #'1372217225@qq.com'
-    passwd = 'Suan.0131' 
-    #'wrl5200wulv'
+    user = '' 
+    passwd = '' 
     data = {
         'username' : user,
         'password' : passwd
